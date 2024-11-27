@@ -1,0 +1,37 @@
+Anleitung
+1. Projekt-Setup
+
+Kopiere den Code in ein Python-Skript (z. B. stock_analysis.py).
+2. Aktiensymbol festlegen
+
+Passe das Symbol der gewünschten Aktie an:
+
+company = 'MX'  # Beispiel: MX
+
+3. Parameter einstellen
+
+Ändere den Zeitraum und das Intervall nach Bedarf:
+
+stock = yf.download({company}, period='3y', interval='1d')
+
+4. Modelltraining
+
+Führe das Skript aus, um:
+
+    Daten zu laden und technische Indikatoren zu berechnen.
+    Das Modell mit historischen Daten zu trainieren:
+
+    pred = model.fit(X, y, batch_size=25, epochs=6)
+
+5. Speichern der Ergebnisse
+
+Das Modell speichert Gewichte automatisch im Ordner:
+
+model_saved/
+
+6. Visualisierung
+
+Das Skript erstellt eine Grafik mit:
+
+    Aktienkursdaten.
+    EMAs (50 und 200 Tage).
