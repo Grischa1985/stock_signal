@@ -1,4 +1,4 @@
-README für Aktienanalyse und Deep-Learning-Modell
+Aktienanalyse und Deep-Learning-Modell
 Projektübersicht
 
 Dieses Projekt kombiniert technische Aktienanalyse und Deep Learning, um mögliche Handelschancen auf Basis historischer Kursdaten zu identifizieren. Es werden Indikatoren wie RSI, Stochastic Oscillator, EMA (Exponential Moving Average) sowie ein neuronales Netzwerk verwendet, um Signale zu generieren und Wahrscheinlichkeiten für Handelschancen zu bewerten.
